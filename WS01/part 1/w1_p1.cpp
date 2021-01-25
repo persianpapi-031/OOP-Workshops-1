@@ -1,10 +1,10 @@
 // Workshop 1 - Linkage, Storage Duration, Namespaces, and OS Interface
 // Cornel - 2020/01/08
 // Chris - 2021/01/14
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
 #include <fstream>
-#include "event.h"
 #include "event.h"
 
 /* input file format: a comma separated set of fields; some fields have a single parameter
@@ -20,17 +20,19 @@ codes
 
 // TODO: write the prototype for the main function
 //         to accept command line arguments
-
+int main(int argc, char* argv)
 {
 	std::cout << "Command Line:\n";
 	// TODO: print the command line here, in the format
 	// 1: first argument
 	// 2: second argument
 	// 3: third argument
-
+	for (int i = 0; i < argc; i++)
+	{
+		std::cout << i + 1 << ": " << argv[i] << std::endl;
+	}
 
 	std::cout << std::endl;
-
 
 	// the archive can store maximum 10 events
 	sdds::Event archive[10];
