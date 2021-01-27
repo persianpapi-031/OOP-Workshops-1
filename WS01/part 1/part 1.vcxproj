@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c8669daa-efc1-4bee-9f35-699671f3fad5}</ProjectGuid>
+    <ProjectGuid>{257955ed-93a9-46ef-9492-e215dfe44040}</ProjectGuid>
     <RootNamespace>part1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -140,10 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="event.cpp" />
-    <ClCompile Include="w1_p1.cpp" />
+    <ClCompile Include="w1_p2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="event.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="monday.txt" />
+    <Text Include="tuesday.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,2 @@
+C:\Users\kian1\Documents\GitHub\OOP345-Workshops\WS01\part 1\x64\Debug\part 1.exe
+C:\Users\kian1\Documents\GitHub\OOP345-Workshops\WS01\part 1\x64\Debug\part 1.pdb
