@@ -83,7 +83,7 @@ Enclose all your source code within the `sdds` namespace and include the necessa
 
 ### `TimedEvents` Module
 
-Design and code a class named `TimedEvents` that manages a **statically** allocated array of record objects.  Your class predefines the maximum number of record objects at 10. The **instance variables** for your class should include:
+Design and code a class named `TimedEvents` that manages a **statically** allocated array of `Event` objects.  Your class predefines the maximum number of event objects at 10. The **instance variables** for your class should include:
 - the number of records currently stored
 - the start time for the current event (an object of type `std::chrono::steady_clock::time_point`; see documentation [here](https://en.cppreference.com/w/cpp/chrono/time_point))
 - the end time for the current event (an object of type `std::chrono::steady_clock::time_point`)
