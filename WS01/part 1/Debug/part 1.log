@@ -1,0 +1,10 @@
+﻿  event.cpp
+  w1_p1.cpp
+C:\Users\kian1\Documents\GitHub\OOP-Workshops-1\WS01\part 1\w1_p1.cpp(53,30): error C2664: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream<std::experimental::filesystem::v1::path>(const std::experimental::filesystem::v1::path &,std::ios_base::openmode,int)': cannot convert argument 1 from 'char' to 'const std::experimental::filesystem::v1::path &'
+C:\Users\kian1\Documents\GitHub\OOP-Workshops-1\WS01\part 1\w1_p1.cpp(53,30): message : Reason: cannot convert from 'char' to 'const std::experimental::filesystem::v1::path'
+C:\Users\kian1\Documents\GitHub\OOP-Workshops-1\WS01\part 1\w1_p1.cpp(53,30): message : use of undefined type 'std::experimental::filesystem::v1::path'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\fstream(45,19): message : see declaration of 'std::experimental::filesystem::v1::path'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\fstream(834,5): message : see declaration of 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream'
+C:\Users\kian1\Documents\GitHub\OOP-Workshops-1\WS01\part 1\w1_p1.cpp(85,23): error C2660: 'sdds::Event::set': function does not take 0 arguments
+C:\Users\kian1\Documents\GitHub\OOP-Workshops-1\WS01\part 1\event.h(26,8): message : see declaration of 'sdds::Event::set'
+  Generating Code...
